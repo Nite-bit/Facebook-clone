@@ -1,0 +1,217 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0fff0;
+    color: #333;
+}
+
+/* Top Panel Navigation */
+.top-panel {
+    display: flex;
+    background-color: #d5dbd6;
+    padding: 10px 2%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    align-items: center;
+    display: flex;
+    height: 50px;
+    width: 60px;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    border-radius: 50%;
+}
+
+.logname {
+    display: flex;
+    width: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+}
+
+.logname h1 {
+    align-items: center;
+    margin: 2px;
+    font-size: 25px;
+    line-height: 56px;
+    color: rgb(43, 99, 43);
+}
+
+.logname h3 {
+    align-items: end;
+    margin: 0;
+    font-size: 14px;
+    color: #444;
+    line-height: 62px;
+}
+
+.menu-left {
+    width: 750px;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.menu-left li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.menu-left li a:hover {
+    color: rgb(39, 106, 39);
+}
+
+.menu-right {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    -ms-text-kashida-space:initial;
+}
+
+.menu-right i {
+    font-size: 18px;
+    color: #464b43;
+}
+
+.menu-right i:hover {
+    color: rgb(32, 63, 32);
+}
+
+.button{
+    display: flex;
+}
+
+#login{
+    margin: 10px 8px;
+    padding: 12px 16px;
+    align-items: center;
+    background-color: #2a582a;
+    border : none;
+    -webkit-text-fill-color: #f0fff0;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+#login:hover{
+    background-color: rgb(17, 144, 17);
+}
+
+#signin{
+    margin: 10px 8px;
+    padding: 8px 16px;
+    align-items: center;
+    background-color: #2a582a;
+    -webkit-text-fill-color: #f0fff0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#signin:hover {
+    background-color: rgb(17, 144, 17);
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.nav-links li a:hover {
+    color: rgb(45, 125, 45);
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    margin: 50px 10px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #222;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.search-box input {
+    padding: 10px;
+    width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 15px 0 0 15px;
+    outline: none;
+}
+
+.search-btn {
+    padding: 10px 15px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 0 15px 15px 0;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background-color: darkgreen;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.actions button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.master-btn {
+    background-color: #ddd;
+    color: #333;
+}
+
+.fullstack-btn {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.actions button:hover {
+    opacity: 0.8;
+}
